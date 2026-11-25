@@ -1,0 +1,49 @@
+{
+    "quantidade_mensagens": 5169,
+    "distribuicao_classes": {
+        "ham": 4516,
+        "spam": 653
+    },
+    "melhor_modelo": "LogisticRegression",
+    "metricas": {
+        "MultinomialNB": {
+            "acuracia": 0.9526112185686654,
+            "precisao_spam": 1.0,
+            "recall_spam": 0.6259541984732825,
+            "f1_spam": 0.7699530516431925
+        },
+        "LogisticRegression": {
+            "acuracia": 0.9738878143133463,
+            "precisao_spam": 0.8823529411764706,
+            "recall_spam": 0.916030534351145,
+            "f1_spam": 0.898876404494382
+        }
+    },
+    "relatorio_classificacao": {
+        "ham": {
+            "precision": 0.987750556792873,
+            "recall": 0.982281284606866,
+            "f1-score": 0.9850083287062743,
+            "support": 903.0
+        },
+        "spam": {
+            "precision": 0.8823529411764706,
+            "recall": 0.916030534351145,
+            "f1-score": 0.898876404494382,
+            "support": 131.0
+        },
+        "accuracy": 0.9738878143133463,
+        "macro avg": {
+            "precision": 0.9350517489846718,
+            "recall": 0.9491559094790055,
+            "f1-score": 0.9419423666003282,
+            "support": 1034.0
+        },
+        "weighted avg": {
+            "precision": 0.9743974739633289,
+            "recall": 0.9738878143133463,
+            "f1-score": 0.9740960636465471,
+            "support": 1034.0
+        }
+    }
+}
