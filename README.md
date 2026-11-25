@@ -1,6 +1,6 @@
 # ML Challenge — Detector Inteligente de Spam
 
-**Estudante:** [Digite seu nome completo]  
+**Estudante:** Ana Claudia Freitas da Silva
 **Trilha:** D — Filtro antispam  
 **Tipo de problema:** Classificação de texto
 
